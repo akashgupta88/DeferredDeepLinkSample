@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>872019372941-fmgtcp7elfa8g9pqq5jme3seso5609ab.apps.googleusercontent.com</string>
+	<string>37989789988-llubagk5n46evti57gqq60vuliih5g2k.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.872019372941-fmgtcp7elfa8g9pqq5jme3seso5609ab</string>
+	<string>com.googleusercontent.apps.37989789988-llubagk5n46evti57gqq60vuliih5g2k</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCnQ5tard37YldMVXVRDoLOoF5KmOYfGhA</string>
+	<string>AIzaSyDEF3XQwlxQbYcNZsScgfU-kaVAuHwpXJA</string>
 	<key>GCM_SENDER_ID</key>
-	<string>872019372941</string>
+	<string>37989789988</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.thoughtworks.deeplinksample</string>
+	<string>com.thoughtworks.deferreddeeplink</string>
 	<key>PROJECT_ID</key>
-	<string>deferred-deep-link-sample</string>
+	<string>deferred-deeplinking-demo</string>
 	<key>STORAGE_BUCKET</key>
-	<string>deferred-deep-link-sample.appspot.com</string>
+	<string>deferred-deeplinking-demo.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:872019372941:ios:c8053f4a4c6c5992</string>
+	<string>1:37989789988:ios:481d1b7172fc82a1</string>
 	<key>DATABASE_URL</key>
-	<string>https://deferred-deep-link-sample.firebaseio.com</string>
+	<string>https://deferred-deeplinking-demo.firebaseio.com</string>
 </dict>
 </plist>

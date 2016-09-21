@@ -15,7 +15,7 @@
 		5A4F64D71D92CECE00FF2B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4F64D51D92CECE00FF2B91 /* LaunchScreen.storyboard */; };
 		5A4F64E21D92CECE00FF2B91 /* DeeplinkSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F64E11D92CECE00FF2B91 /* DeeplinkSampleTests.swift */; };
 		5A4F64ED1D92CECE00FF2B91 /* DeeplinkSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F64EC1D92CECE00FF2B91 /* DeeplinkSampleUITests.swift */; };
-		5A4F64FB1D92CF1B00FF2B91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A4F64FA1D92CF1B00FF2B91 /* GoogleService-Info.plist */; };
+		5A4F64FD1D93138100FF2B91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A4F64FC1D93138100FF2B91 /* GoogleService-Info.plist */; };
 		83EF952CD3E3CBEBFEC2CFAA /* Pods_DeeplinkSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6266B3431121965E1185A4C1 /* Pods_DeeplinkSampleTests.framework */; };
 		DC5C43B67EB87B5AE4C86509 /* Pods_DeeplinkSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B869C14B90E2116514558B0 /* Pods_DeeplinkSampleUITests.framework */; };
 /* End PBXBuildFile section */
@@ -59,7 +59,7 @@
 		5A4F64E81D92CECE00FF2B91 /* DeeplinkSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeplinkSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4F64EC1D92CECE00FF2B91 /* DeeplinkSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkSampleUITests.swift; sourceTree = "<group>"; };
 		5A4F64EE1D92CECE00FF2B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A4F64FA1D92CF1B00FF2B91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5A4F64FC1D93138100FF2B91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6266B3431121965E1185A4C1 /* Pods_DeeplinkSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,7 +122,7 @@
 				5A4F64D31D92CECE00FF2B91 /* Assets.xcassets */,
 				5A4F64D51D92CECE00FF2B91 /* LaunchScreen.storyboard */,
 				5A4F64D81D92CECE00FF2B91 /* Info.plist */,
-				5A4F64FA1D92CF1B00FF2B91 /* GoogleService-Info.plist */,
+				5A4F64FC1D93138100FF2B91 /* GoogleService-Info.plist */,
 			);
 			path = DeeplinkSample;
 			sourceTree = "<group>";
@@ -281,9 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A4F64D71D92CECE00FF2B91 /* LaunchScreen.storyboard in Resources */,
-				5A4F64FB1D92CF1B00FF2B91 /* GoogleService-Info.plist in Resources */,
 				5A4F64D41D92CECE00FF2B91 /* Assets.xcassets in Resources */,
 				5A4F64D21D92CECE00FF2B91 /* Main.storyboard in Resources */,
+				5A4F64FD1D93138100FF2B91 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,7 +577,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DeeplinkSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.deeplinksample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.deferreddeeplink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -589,7 +589,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DeeplinkSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.deeplinksample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.deferreddeeplink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
