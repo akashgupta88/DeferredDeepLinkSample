@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A38391A731DA1F100B4270 /* Pods_DeeplinkSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394B5C5C94A5DB4A231267D7 /* Pods_DeeplinkSample.framework */; };
 		5A4F64CD1D92CECE00FF2B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F64CC1D92CECE00FF2B91 /* AppDelegate.swift */; };
 		5A4F64CF1D92CECE00FF2B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F64CE1D92CECE00FF2B91 /* ViewController.swift */; };
 		5A4F64D21D92CECE00FF2B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4F64D01D92CECE00FF2B91 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		5A4F64D71D92CECE00FF2B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4F64D51D92CECE00FF2B91 /* LaunchScreen.storyboard */; };
 		5A4F64E21D92CECE00FF2B91 /* DeeplinkSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F64E11D92CECE00FF2B91 /* DeeplinkSampleTests.swift */; };
 		5A4F64ED1D92CECE00FF2B91 /* DeeplinkSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F64EC1D92CECE00FF2B91 /* DeeplinkSampleUITests.swift */; };
+		5A4F64FB1D92CF1B00FF2B91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A4F64FA1D92CF1B00FF2B91 /* GoogleService-Info.plist */; };
+		83EF952CD3E3CBEBFEC2CFAA /* Pods_DeeplinkSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6266B3431121965E1185A4C1 /* Pods_DeeplinkSampleTests.framework */; };
+		DC5C43B67EB87B5AE4C86509 /* Pods_DeeplinkSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B869C14B90E2116514558B0 /* Pods_DeeplinkSampleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B08F5A65C18B228598198FA /* Pods-DeeplinkSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeeplinkSample/Pods-DeeplinkSample.release.xcconfig"; sourceTree = "<group>"; };
+		2B869C14B90E2116514558B0 /* Pods_DeeplinkSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394B5C5C94A5DB4A231267D7 /* Pods_DeeplinkSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7D85E31057F87A52BD8CC6 /* Pods-DeeplinkSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeeplinkSample/Pods-DeeplinkSample.debug.xcconfig"; sourceTree = "<group>"; };
+		3E3E4B1DEE0D38DCB5EA1CF8 /* Pods-DeeplinkSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeeplinkSampleUITests/Pods-DeeplinkSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41877EDC8451DB382B4B941E /* Pods-DeeplinkSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeeplinkSampleUITests/Pods-DeeplinkSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DE07EA640A5E7FDB4115719 /* Pods-DeeplinkSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeeplinkSampleTests/Pods-DeeplinkSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		5169D1EFD94B10D819378A0A /* Pods-DeeplinkSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeeplinkSampleTests/Pods-DeeplinkSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A4F64C91D92CECE00FF2B91 /* DeeplinkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeeplinkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4F64CC1D92CECE00FF2B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A4F64CE1D92CECE00FF2B91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		5A4F64E81D92CECE00FF2B91 /* DeeplinkSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeplinkSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4F64EC1D92CECE00FF2B91 /* DeeplinkSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkSampleUITests.swift; sourceTree = "<group>"; };
 		5A4F64EE1D92CECE00FF2B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4F64FA1D92CF1B00FF2B91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6266B3431121965E1185A4C1 /* Pods_DeeplinkSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A38391A731DA1F100B4270 /* Pods_DeeplinkSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83EF952CD3E3CBEBFEC2CFAA /* Pods_DeeplinkSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5C43B67EB87B5AE4C86509 /* Pods_DeeplinkSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				5A4F64E01D92CECE00FF2B91 /* DeeplinkSampleTests */,
 				5A4F64EB1D92CECE00FF2B91 /* DeeplinkSampleUITests */,
 				5A4F64CA1D92CECE00FF2B91 /* Products */,
+				AEDD9ABE8ACA8D8D1D1869D7 /* Pods */,
+				BC4BE7E7F14090A1E346BA96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				5A4F64D31D92CECE00FF2B91 /* Assets.xcassets */,
 				5A4F64D51D92CECE00FF2B91 /* LaunchScreen.storyboard */,
 				5A4F64D81D92CECE00FF2B91 /* Info.plist */,
+				5A4F64FA1D92CF1B00FF2B91 /* GoogleService-Info.plist */,
 			);
 			path = DeeplinkSample;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = DeeplinkSampleUITests;
 			sourceTree = "<group>";
 		};
+		AEDD9ABE8ACA8D8D1D1869D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B7D85E31057F87A52BD8CC6 /* Pods-DeeplinkSample.debug.xcconfig */,
+				1B08F5A65C18B228598198FA /* Pods-DeeplinkSample.release.xcconfig */,
+				5169D1EFD94B10D819378A0A /* Pods-DeeplinkSampleTests.debug.xcconfig */,
+				4DE07EA640A5E7FDB4115719 /* Pods-DeeplinkSampleTests.release.xcconfig */,
+				41877EDC8451DB382B4B941E /* Pods-DeeplinkSampleUITests.debug.xcconfig */,
+				3E3E4B1DEE0D38DCB5EA1CF8 /* Pods-DeeplinkSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC4BE7E7F14090A1E346BA96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				394B5C5C94A5DB4A231267D7 /* Pods_DeeplinkSample.framework */,
+				6266B3431121965E1185A4C1 /* Pods_DeeplinkSampleTests.framework */,
+				2B869C14B90E2116514558B0 /* Pods_DeeplinkSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A4F64F11D92CECE00FF2B91 /* Build configuration list for PBXNativeTarget "DeeplinkSample" */;
 			buildPhases = (
+				7D5160D6ACD8D2E670ED0C02 /* 📦 Check Pods Manifest.lock */,
 				5A4F64C51D92CECE00FF2B91 /* Sources */,
 				5A4F64C61D92CECE00FF2B91 /* Frameworks */,
 				5A4F64C71D92CECE00FF2B91 /* Resources */,
+				605E360E8BA7645BB4BF2EB8 /* 📦 Embed Pods Frameworks */,
+				063A4EF7F13460431C97E23A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A4F64F41D92CECE00FF2B91 /* Build configuration list for PBXNativeTarget "DeeplinkSampleTests" */;
 			buildPhases = (
+				863B87EB40DC8CB7E53ADE37 /* 📦 Check Pods Manifest.lock */,
 				5A4F64D91D92CECE00FF2B91 /* Sources */,
 				5A4F64DA1D92CECE00FF2B91 /* Frameworks */,
 				5A4F64DB1D92CECE00FF2B91 /* Resources */,
+				45BF83984644B7D15218A6ED /* 📦 Embed Pods Frameworks */,
+				C5788A6CA74787C853E211AF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A4F64F71D92CECE00FF2B91 /* Build configuration list for PBXNativeTarget "DeeplinkSampleUITests" */;
 			buildPhases = (
+				5A39425CFAD204A7EF1DE982 /* 📦 Check Pods Manifest.lock */,
 				5A4F64E41D92CECE00FF2B91 /* Sources */,
 				5A4F64E51D92CECE00FF2B91 /* Frameworks */,
 				5A4F64E61D92CECE00FF2B91 /* Resources */,
+				D0FC79837F20E64997840B4C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A4F64D71D92CECE00FF2B91 /* LaunchScreen.storyboard in Resources */,
+				5A4F64FB1D92CF1B00FF2B91 /* GoogleService-Info.plist in Resources */,
 				5A4F64D41D92CECE00FF2B91 /* Assets.xcassets in Resources */,
 				5A4F64D21D92CECE00FF2B91 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +302,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		063A4EF7F13460431C97E23A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeeplinkSample/Pods-DeeplinkSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45BF83984644B7D15218A6ED /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeeplinkSampleTests/Pods-DeeplinkSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A39425CFAD204A7EF1DE982 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		605E360E8BA7645BB4BF2EB8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeeplinkSample/Pods-DeeplinkSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D5160D6ACD8D2E670ED0C02 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		863B87EB40DC8CB7E53ADE37 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5788A6CA74787C853E211AF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeeplinkSampleTests/Pods-DeeplinkSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0FC79837F20E64997840B4C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeeplinkSampleUITests/Pods-DeeplinkSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A4F64C51D92CECE00FF2B91 /* Sources */ = {
@@ -397,28 +572,31 @@
 		};
 		5A4F64F21D92CECE00FF2B91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7D85E31057F87A52BD8CC6 /* Pods-DeeplinkSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DeeplinkSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TW.DeeplinkSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.deeplinksample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		5A4F64F31D92CECE00FF2B91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B08F5A65C18B228598198FA /* Pods-DeeplinkSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DeeplinkSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TW.DeeplinkSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.deeplinksample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		5A4F64F51D92CECE00FF2B91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5169D1EFD94B10D819378A0A /* Pods-DeeplinkSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DeeplinkSampleTests/Info.plist;
@@ -431,6 +609,7 @@
 		};
 		5A4F64F61D92CECE00FF2B91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE07EA640A5E7FDB4115719 /* Pods-DeeplinkSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DeeplinkSampleTests/Info.plist;
@@ -443,6 +622,7 @@
 		};
 		5A4F64F81D92CECE00FF2B91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41877EDC8451DB382B4B941E /* Pods-DeeplinkSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DeeplinkSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +634,7 @@
 		};
 		5A4F64F91D92CECE00FF2B91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E3E4B1DEE0D38DCB5EA1CF8 /* Pods-DeeplinkSampleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DeeplinkSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +663,7 @@
 				5A4F64F31D92CECE00FF2B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A4F64F41D92CECE00FF2B91 /* Build configuration list for PBXNativeTarget "DeeplinkSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +672,7 @@
 				5A4F64F61D92CECE00FF2B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A4F64F71D92CECE00FF2B91 /* Build configuration list for PBXNativeTarget "DeeplinkSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +681,7 @@
 				5A4F64F91D92CECE00FF2B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

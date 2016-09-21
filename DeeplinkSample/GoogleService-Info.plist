@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>872019372941-fmgtcp7elfa8g9pqq5jme3seso5609ab.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.872019372941-fmgtcp7elfa8g9pqq5jme3seso5609ab</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCnQ5tard37YldMVXVRDoLOoF5KmOYfGhA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>872019372941</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.thoughtworks.deeplinksample</string>
+	<key>PROJECT_ID</key>
+	<string>deferred-deep-link-sample</string>
+	<key>STORAGE_BUCKET</key>
+	<string>deferred-deep-link-sample.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:872019372941:ios:c8053f4a4c6c5992</string>
+	<key>DATABASE_URL</key>
+	<string>https://deferred-deep-link-sample.firebaseio.com</string>
+</dict>
+</plist>
