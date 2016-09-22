@@ -60,6 +60,7 @@
 		5A4F64EC1D92CECE00FF2B91 /* DeeplinkSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkSampleUITests.swift; sourceTree = "<group>"; };
 		5A4F64EE1D92CECE00FF2B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A4F64FC1D93138100FF2B91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5AF09CD41D942307001473D4 /* DeeplinkSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeeplinkSample.entitlements; sourceTree = "<group>"; };
 		6266B3431121965E1185A4C1 /* Pods_DeeplinkSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,6 +117,7 @@
 		5A4F64CB1D92CECE00FF2B91 /* DeeplinkSample */ = {
 			isa = PBXGroup;
 			children = (
+				5AF09CD41D942307001473D4 /* DeeplinkSample.entitlements */,
 				5A4F64CC1D92CECE00FF2B91 /* AppDelegate.swift */,
 				5A4F64CE1D92CECE00FF2B91 /* ViewController.swift */,
 				5A4F64D01D92CECE00FF2B91 /* Main.storyboard */,
@@ -244,13 +246,22 @@
 				TargetAttributes = {
 					5A4F64C81D92CECE00FF2B91 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9HK4QP6364;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					5A4F64DC1D92CECE00FF2B91 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 5A4F64C81D92CECE00FF2B91;
 					};
 					5A4F64E71D92CECE00FF2B91 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 5A4F64C81D92CECE00FF2B91;
 					};
 				};
@@ -575,10 +586,13 @@
 			baseConfigurationReference = 3B7D85E31057F87A52BD8CC6 /* Pods-DeeplinkSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DeeplinkSample/DeeplinkSample.entitlements;
+				DEVELOPMENT_TEAM = 9HK4QP6364;
 				INFOPLIST_FILE = DeeplinkSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.deferreddeeplink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -587,10 +601,13 @@
 			baseConfigurationReference = 1B08F5A65C18B228598198FA /* Pods-DeeplinkSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DeeplinkSample/DeeplinkSample.entitlements;
+				DEVELOPMENT_TEAM = 9HK4QP6364;
 				INFOPLIST_FILE = DeeplinkSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.deferreddeeplink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -603,6 +620,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TW.DeeplinkSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeeplinkSample.app/DeeplinkSample";
 			};
 			name = Debug;
@@ -616,6 +634,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TW.DeeplinkSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeeplinkSample.app/DeeplinkSample";
 			};
 			name = Release;
@@ -628,6 +647,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TW.DeeplinkSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DeeplinkSample;
 			};
 			name = Debug;
@@ -640,6 +660,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TW.DeeplinkSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DeeplinkSample;
 			};
 			name = Release;
