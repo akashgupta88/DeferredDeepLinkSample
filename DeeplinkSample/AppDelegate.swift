@@ -8,6 +8,9 @@
 
 import UIKit
 import Firebase
+import Fabric
+import Crashlytics
+import Branch
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,8 +20,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        //FIROptions.defaultOptions().deepLinkURLScheme = self.CUSTOM_URL_SCHEME
+        FIROptions.default().deepLinkURLScheme = "twdeeplink"
         FIRApp.configure()
+        
+        Fabric.with([Crashlytics.self, Branch.self])
+        
+        Branch.getInstance().initSession(launchOptions: launchOptions, andRegisterDeepLinkHandler: { params, error in
+            guard error == nil else { return }
+            guard let userDidClick = params["+clicked_branch_link"] as? Bool else { return }
+            if userDidClick {
+                // This code will execute when your app is opened from a Branch deep link, which
+                // means that you can route to a custom activity depending on what they clicked.
+                // In this example, we'll just print out the data from the link that was clicked.
+                print("deep link data: ", params)
+                // Load a reference to the storyboard and grab a reference to the navigation controller
+                DeepLinkManager.sharedInstance.handleDeepLink()
+            }
+        })
         
         return true
     }
@@ -46,15 +64,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+            
+        Branch.getInstance().handleDeepLink(url)
+        
         return application(app, open: url, sourceApplication: nil, annotation: [:])
     }
     
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-        let dynamicLink = FIRDynamicLinks.dynamicLinks()?.dynamicLinkFromCustomSchemeURL(url)
+        let dynamicLink = FIRDynamicLinks.dynamicLinks()?.dynamicLink(fromCustomSchemeURL: url)
         if let dynamicLink = dynamicLink {
             // Handle the deep link. For example, show the deep-linked content or
             // apply a promotional offer to the user's account.
             // ...
+            DeepLinkManager.sharedInstance.handleDeepLink()
             return true
         }
         
@@ -62,12 +84,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
+        
         let handled = FIRDynamicLinks.dynamicLinks()?.handleUniversalLink(userActivity.webpageURL!) { (dynamiclink, error) in
             // ...
+            DeepLinkManager.sharedInstance.handleDeepLink()
         }
         
+        let handledBranch = Branch.getInstance().continue(userActivity)
         
-        return handled!
+        return handled! || handledBranch
     }
 
 

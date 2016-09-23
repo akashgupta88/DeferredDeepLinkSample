@@ -8,6 +8,9 @@ target 'DeeplinkSample' do
   # Pods for DeeplinkSample
   pod 'Firebase'
   pod 'Firebase/DynamicLinks'
+  pod "Branch"
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   target 'DeeplinkSampleTests' do
     inherit! :search_paths
